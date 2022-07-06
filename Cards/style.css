@@ -1,0 +1,14 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    color: blue;
+    padding: 10px;
+    max-width: 400px;
+    text-align: center;
+    margin: 10px;
+    border: solid 1px blue;
+    border-radius: 5px;
+}

@@ -1,0 +1,64 @@
+* {
+    text-align: center;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(99, 134, 134);
+}
+
+.app {
+    margin: 30px auto;
+    background-color: rgb(251, 252, 232);
+    padding: 10px;
+    width: 300px;
+    border: solid 1px rgb(159, 159, 196);
+}
+
+h3 {
+    color: rgb(99, 134, 134);
+}
+
+.range-container,
+.checkbox-container,
+.result {
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]+label {
+    background: rgb(236, 236, 236);
+    color: black;
+    border: solid 1px rgb(159, 159, 196);
+    margin: 0px 10px;
+    padding: 5px;
+    font-size: x-small;
+    transition: 0.3s;
+}
+
+input[type="checkbox"]:checked+label {
+    background: black;
+    color: blanchedalmond;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+#generate-password {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    color: blanchedalmond;
+    background-color: black;
+}
+
+#passwordoutput {
+    color: red;
+    font-size: larger;
+    background-color: rgb(228, 236, 236);
+    margin: 10px;
+}

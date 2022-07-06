@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="description" content="" />
+    <link rel="shortcut icon" href="./favicon/Lezardon logo.jpg" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="app">
+        <h3>Password Generator</h3>
+
+        <div class="range-container">
+            <label class="field">Size matter</label>
+            <fieldset>
+                <input type="range" id="password-length" min="1" max="15" value="8">
+
+                <input type="text" id="display-password-length" value="8" readonly>
+            </fieldset>
+        </div>
+        <div class="checkbox-container">
+            <label class="field">Complexity too !</label>
+            <fieldset>
+                <input type="checkbox" id="lowercase" checked>
+                <label for="lowercase">a-z</label>
+                <input type="checkbox" id="uppercase">
+                <label for="uppercase">A-Z</label>
+                <input type="checkbox" id="number">
+                <label for="number">0-9</label>
+                <input type="checkbox" id="symbol">
+                <label for="symbol">!-?</label>
+            </fieldset>
+
+
+
+        </div>
+        <div class="result">
+            <button id="generate-password">Get password</button>
+            <input type="text" name="" id="passwordoutput" value="" readonly>
+        </div>
+        <script src="./index.js"></script>
+</body>
+
+</html>
