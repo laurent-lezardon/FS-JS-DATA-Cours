@@ -1,0 +1,59 @@
+* {}
+
+body {
+    background: rgb(228, 226, 226);
+}
+
+form {
+    width: 300px;
+    margin: 30px auto;
+    border: solid 1px rgb(183, 253, 230);
+    border-radius: 10px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.836);
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    height: 2em;
+    background: rgb(219, 218, 218);
+    border-radius: 6px;
+    outline: 0;
+    overflow: hidden;
+    margin-right: 0;
+}
+
+.error {
+    color: red;
+}
+
+span,
+#speudospan {
+    color: red;
+    font-size: smaller;
+}
+
+.progressbar {
+    width: 30%;
+    height: 4px;
+    border-radius: 4px;
+}
+
+.progressRed {
+    width: 30%;
+    background-color: red;
+}
+
+.progressBlue {
+    width: 60%;
+    background-color: aqua;
+}
+
+.progressGreen {
+    width: 100%;
+    background-color: greenyellow;
+}

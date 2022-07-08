@@ -32,6 +32,11 @@ generatePassword.addEventListener("click", () => {
             // console.log(valuePassword);
     }
     passwordOutput.value = valuePassword
+    if (valuePassword.match(/[a-z]/)) console.log("minuscules OK");
+    if (valuePassword.match(/[A-Z]/)) console.log("majuscules OK");
+    if (valuePassword.match(/[0-9]/)) console.log("chiffres OK");
+    if (valuePassword.match(/[-è_ç@)£µ%]/)) console.log("symboles OK");
+
 
 
 
